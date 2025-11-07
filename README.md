@@ -17,8 +17,12 @@ pip install torch gymnasium[atari] ale-py gymnasium[accept-rom-license]
 Run the Jupyter notebook `DQN_BasicMath.ipynb` in Google Colab or locally.
 
 ## Results
-- Baseline average reward: 0.29
-- Experiments with gamma, learning rate, and epsilon decay included
+- **Baseline** (800 episodes): Average reward 0.29
+- **Experiment 1** (gamma=0.8): Average reward 0.00
+- **Experiment 2** (LR=0.001): Average reward 0.00  
+- **Experiment 3** (decay=0.98): Average reward 0.01
+
+Conclusion: Baseline hyperparameters performed best. Lower gamma and higher learning rate both hurt performance.
 
 ## License
 MIT License
